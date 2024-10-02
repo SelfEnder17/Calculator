@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:text=""
+        android:textSize="38dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="=" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/ubuntu_light"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/button4"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/ubuntu_light"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/button5"
+
+        android:text="2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/ubuntu_light"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/button6"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/ubuntu_light"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/button7"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/ubuntu_light"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/button8"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/ubuntu_light"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/button9"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/ubuntu_light"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/button0"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/ubuntu_light"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/button0"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/ubuntu_light"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/button0"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_above="@id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/buttonplus"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@id/button1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="1dp"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/buttonminus"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/button2"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/buttonplus"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/buttonclear"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_above="@id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="C" />
+
+    <Button
+        android:id="@+id/buttonmultiplication"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/button2"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="143dp"
+        android:layout_toEndOf="@+id/buttonminus"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/buttondivision"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+
+        android:layout_above="@+id/button3"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/buttonmultiplication"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/buttondot"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/buttondivision"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="." />
+</RelativeLayout>
